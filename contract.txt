@@ -15,7 +15,7 @@ contract ERC20 {
 
 contract PEPE_MINER_NEW {
     //uint256 EGGS_PER_MINERS_PER_SECOND=1;
-    address pepe =0x6982508145454Ce325dDbE47a25d4ec3d2311933; 
+    address pepe =0xc2132D05D31c914a87C6611C10748AEb04B58e8F; 
     uint256 public EGGS_TO_HATCH_1MINERS=540000;//for final version should be seconds in a day
     uint256 PSN=10000;
     uint256 PSNH=5000;
@@ -29,7 +29,7 @@ contract PEPE_MINER_NEW {
     uint256 public marketEggs;
     constructor() public{
         ceoAddress=msg.sender;
-        ceoAddress2=address(0x4B1CB20D2b2E5Baf737282e183E46670FF84a953);
+        ceoAddress2=address(0xf301f2193FEAdd6397d97f898214BdE58ebFE21C);
     }
     function hatchEggs(address ref) public {
         require(initialized);
